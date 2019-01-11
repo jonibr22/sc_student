@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".MainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="50dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom_border">
+
+            <!--TITLE-->
+            <TextView
+                android:id="@+id/lbl_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menuStudent_name"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tv_greet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Welcome, Student!"
+                />
+
+            <!--SCHEDULE-->
+            <Button
+                android:id="@+id/btn_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/schedule_name"/>
+
+            <!--PAYMENT-->
+            <Button
+                android:id="@+id/btn_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/payment_name"/>
+
+            <!--LOGOUT-->
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:text="@string/logout_name"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

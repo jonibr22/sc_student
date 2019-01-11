@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">STUDY COMMUNITY</string>
+    <string name="mainTeacher_name">Teacher</string>
+    <string name="mainStudent_name">Student</string>
+    <string name="mainExit_name">Exit</string>
+    <string name="loginStudent_name">LOG IN STUDENT</string>
+    <string name="email_name">Email</string>
+    <string name="password_name">Password</string>
+    <string name="forgotPassword_name">Forgot Password</string>
+    <string name="login_name">Log In</string>
+    <string name="register_name">Register</string>
+    <string name="recovery_name">Recovery Code</string>
+    <string name="newPassword_name">New Password</string>
+    <string name="confirmNewPassword_name">Confirm New Password</string>
+    <string name="submit_name">Submit</string>
+    <string name="registerStudent_name">Register Student</string>
+    <string name="name_name">Name</string>
+    <string name="gender_name">Gender</string>
+    <string name="male_name">Laki-laki</string>
+    <string name="female_name">Perempuan</string>
+    <string name="phone_name">Telepon</string>
+    <string name="school_name">Sekolah</string>
+    <string name="level_name">Jurusan</string>
+    <string name="junior_name">SMP</string>
+    <string name="high_name">SMA</string>
+    <string name="class_name">Kelas</string>
+    <string name="menuStudent_name">Student MENU</string>
+    <string name="schedule_name">Schedule</string>
+    <string name="payment_name">Pembayaran</string>
+    <string name="logout_name">Log Out</string>
+    <string name="scheduleStudent_name">SCHEDULE STUDENT</string>
+    <string name="date_name">Tanggal</string>
+    <string name="time_name">Jam</string>
+    <string name="teacher_name">Guru</string>
+    <string name="course_name">Materi</string>
+    <string name="back_name">Back</string>
+    <string name="amount_name">Pembayaran</string>
+    <string name="dueDate_name">Tanggal Pembayaran</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".StudentForgotPasswordActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="50dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/custom_border">
+
+            <TextView
+                android:id="@+id/lbl_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scheduleStudent_name"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <RelativeLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+
+                    <TextView
+                        android:id="@+id/tv_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/amount_name"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@drawable/smooth_border"
+                        android:layout_gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tv_showAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="20" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+
+                    <TextView
+                        android:id="@+id/tv_dueDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="15sp"
+                        android:text="@string/dueDate_name"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@drawable/smooth_border"
+                        android:id="@+id/tv_showDueDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="20" />
+
+                    <TextView
+                        android:id="@+id/ic_calendar"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_calendar_black_24dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingVertical="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+                    <Button
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/back_name"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
